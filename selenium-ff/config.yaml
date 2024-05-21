@@ -1,0 +1,14 @@
+---
+name: Selenium Firefox Browser
+version: 125.0
+slug: selenium-ff
+description: This add-on provides Selenium for workflows that require scripted browser actions.
+url: 'https://github.com/Sharpie/homeassistant-addons/tree/main/selenium-ff'
+image: 'docker.io/seleniarm/standalone-firefox'
+arch:
+  - amd64
+  - aarch64
+startup: system
+init: false
+services:
+  - 'selenium:provide'
